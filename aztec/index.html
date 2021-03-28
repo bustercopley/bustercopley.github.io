@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+Copyright 2020-2021 Richard Copley
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+ -->
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Iterated shuffling</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link type="text/css" rel="stylesheet" href="../fonts/opensans-regular.css"/>
+    <script src="aztec.js"></script>
+  </head>
+  <body>
+  <body>
+    <div class="column">
+      <div class="square">
+        <canvas class="fit" id="canvas"></canvas>
+      </div>
+      <div>
+        <input type="button" id="restart" value="Restart">
+        <input type="button" id="pause" value="Pause">
+      </div>
+      <div>
+        <label for="speed">Speed</label>
+        <input id="rate" name="speed" type="range" min="0" max="1" step="0.001" value="0.189">
+      </div>
+      <div>
+        <pre>Grid size: <span id="size"> </span>, speed target (seconds per step): <span id="speed"> </span></pre>
+      </div>
+      <div>
+        <h1>Random domino tiling of the Aztec diamond</h1>
+      </div>
+      <div>
+        Inspired by <a href="https://www.youtube.com/watch?v=Yy7Q8IWNfHM">this video on the Mathologer channel</a> —
+        check out the video description for references and further reading.
+      </div>
+      <div class="small">
+        <a href="https://github.com/bustercopley/bustercopley.github.io/tree/master/aztec">Source code on Github</a>&emsp;
+        <a href="javascript-web-labels.html" data-jslicense="1"> Javascript licence information </a>
+      </div>
+    </div>
+  </body>
+</html>

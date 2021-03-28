@@ -1,0 +1,27 @@
+/*
+ *  Copyright (c) 2017, Richard Copley <buster at buster dot me dot uk>
+ *
+ *  Copying and distribution of this file, with or without modification,
+ *  are permitted in any medium without royalty provided the copyright
+ *  notice and this notice are preserved.  This file is offered as-is,
+ *  without any warranty.
+ *
+ */
+
+body {
+  margin: 0;
+}
+
+.column {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+body {
+  font: 14px "opensans-regular", sans-serif
+}
+
+h2 {
+  margin-top: 5ex;
+  font: 18px "fjallaone-regular", sans-serif
+}

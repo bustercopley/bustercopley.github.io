@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'fjallaone-regular';
+  src: url('fjallaone-regular-webfont.eot');
+  src: url('fjallaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fjallaone-regular-webfont.woff2') format('woff2'),
+       url('fjallaone-regular-webfont.woff') format('woff'),
+       url('fjallaone-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,69 @@
+html, body, #container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#container {
+  position: relative;
+}
+
+#sidebar {
+  position: absolute;
+  width: 7em;
+  height: auto;
+  left: 1em;
+  right: auto;
+  top: 8px;
+  bottom: 38px;
+}
+
+#sidebar * {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+
+#content {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 7em;
+  right: 8px;
+  top: 8px;
+  bottom: 38px
+}
+
+#footer {
+  position: absolute;
+  width: auto;
+  height: 30px;
+  left: 7em;
+  right: 8px;
+  top: auto;
+  bottom: 8px;
+}
+
+#diagram {
+  width: 100%;
+  height: 100%;
+}
+
+.label {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 70%;
+  color: grey;
+}
+
+#jslicense-labels1 tr * {
+  width: 8em;
+  margin: 0 auto;
+  text-align: left;
+}
