@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Star</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script src="star.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <div id="controls">
+          <div class="inset">
+            <label for="input">
+              Enter a symbol “{𝑚/𝑛}”, where 𝑚 and 𝑛 are
+              relatively prime positive integers and 𝑚 > 𝑛 ≥ 1
+            </label>
+            <input id="input" type="text" value="{7/3}">
+            <label id="error"> </label>
+          </div>
+        </div>
+        <pre id="status"> </pre>
+      </div>
+      <div id="content">
+        <canvas class="fit" id="canvas"></canvas>
+      </div>
+    </div>
+  </body>
+</html>
